@@ -1,0 +1,30 @@
+.nav_menu .nav {
+    display: flex;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.nav-left{
+    display: flex;
+
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-menu{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}

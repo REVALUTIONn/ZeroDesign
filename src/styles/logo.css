@@ -15,4 +15,9 @@ body{
 .logo{
     margin-top: 30px;
     margin-left: 50px;
+    width: 165px;
+}
+
+.logo img{
+    width: 137px;
 }

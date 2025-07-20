@@ -13,9 +13,9 @@ export default function nav() {
       </div>
 
       <div className='nav-right'>
-        <div className='priceBtn'><p><a href="price">129$</a></p></div>
-        <div className='searchBtn'><a href="#searchBtn"><FontAwesomeIcon icon={faMagnifyingGlass} /></a></div>
-        <div className='purchaseBtn'><a href="#purchaseBtn"><FontAwesomeIcon icon={faCartShopping} /></a></div>
+        <div className='priceBtn'><p><a href="price">$129 Buy Now</a></p></div>
+        <div className='searchBtn'><a href="#searchBtn"><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></a></div>
+        <div className='purchaseBtn'><a href="#purchaseBtn"><FontAwesomeIcon icon={faCartShopping} className="icon"/></a></div>
       </div>
     </div>
   )

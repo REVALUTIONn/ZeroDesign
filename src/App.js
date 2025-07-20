@@ -4,6 +4,8 @@ import Logo from './components/logo';
 import './styles/logo.css'
 import Nav from './components/nav.jsx'
 import './styles/nav.css'
+import Section1 from './components/section1.jsx'
+import './styles/section1.css'
 
 function App() {
   return (
@@ -14,6 +16,15 @@ function App() {
           <Nav />
         </div>
       </header>
+      <div className='sections'>
+          <section className='section1'><Section1 /></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+      </div>
     </div>
   );
 }

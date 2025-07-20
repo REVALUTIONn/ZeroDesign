@@ -1,0 +1,42 @@
+.sections {
+  display: flex;
+  justify-content: center; /* Центрует содержимое */
+  padding: 0 5%;           /* Одинаковые отступы слева и справа */
+  width: 100%;
+  box-sizing: border-box;  /* Чтобы padding не ломал ширину */
+}
+
+.section1 {
+  width: 100%;
+  max-width: 1200px;       /* Чтобы контент не растягивался слишком */
+}
+
+.section1_title{
+    background-color: #E2B013;
+    width: 12%;
+    font-size: 14px;
+}
+
+.section1_header{
+    font-size: 96px;
+}
+
+.section1_description{
+    font-size: 50px;
+}
+
+.section1_description2{
+    font-size: 26px;
+}
+
+.section1_cards{
+    display: flex;
+    width: 522px;
+}
+
+.card{
+    margin-right: 15px;
+    text-align: center;
+    width: 81px;
+    font-size: 11px;
+}

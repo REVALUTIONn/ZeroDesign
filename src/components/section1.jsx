@@ -35,6 +35,9 @@ export default function section1() {
                 </div>
             </div>
         </div>
+        <div className='section1_photo_wrapper'>
+            <img className='section1_photo' src="/images/section1_photo.png" alt="section1_photo" />
+        </div>
     </div>
   )
 }

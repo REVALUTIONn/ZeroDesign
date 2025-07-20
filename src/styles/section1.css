@@ -11,27 +11,46 @@
   max-width: 1200px;       /* Чтобы контент не растягивался слишком */
 }
 
-.section1_title{
+.section1_title {
     background-color: #E2B013;
     width: 12%;
+    min-width: 150px;
     font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;     /* по вертикали */
+    text-align: center;
 }
 
+.section1_title h4 {
+    margin: 0; /* убрать отступы браузера */
+}
+
+/* .section1_content{
+    margin-top: 150px;
+} */
+
+
 .section1_header{
-    font-size: 96px;
+    font-size: 55px;
+    font-weight: 800;
 }
 
 .section1_description{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .section1_description2{
-    font-size: 26px;
+    font-size: 22px;
+    margin-top: 40px;
 }
 
 .section1_cards{
     display: flex;
     width: 522px;
+    height: auto;
+    margin-top: 50px;
 }
 
 .card{
@@ -39,4 +58,28 @@
     text-align: center;
     width: 81px;
     font-size: 11px;
+}
+
+.section1_photo_wrapper{
+    min-width: 728px;
+    height: 785px;
+}
+
+.section1_photo{
+    width: 100%;
+}
+
+.section1_wrapper{
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.section1_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* или 100% от нужной высоты */
+  position: relative;
 }

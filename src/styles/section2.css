@@ -1,0 +1,19 @@
+.section2_wrapper{
+    display: flex;
+    gap: 50px;
+}
+
+.section2_title{
+    font-size: 55px;
+}
+
+.section2_description{
+    width: 610px;
+    font-size: 22px;
+    line-height: 27.5px;
+}
+
+.section2_photo{
+    width: 660px;
+    
+}

@@ -4,6 +4,8 @@
   padding: 0 5%;           /* Одинаковые отступы слева и справа */
   width: 100%;
   box-sizing: border-box;  /* Чтобы padding не ломал ширину */
+  flex-direction: column;
+  align-items: center;
 }
 
 .section1 {
@@ -82,4 +84,44 @@
   align-items: center;
   height: 100vh; /* или 100% от нужной высоты */
   position: relative;
+}
+
+.line1, .line2, .line3, .line4{
+    display: flex;
+    flex-direction: column;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 100%;
+}
+
+.section2_cards .card{
+    color: white;
+    background-color: black;
+    /* width: auto; */
+    min-width: 130px;
+}
+
+.section2_cards p{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.section2_cards{
+    width: 100%;
+}
+
+.line2, .line3, .line4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 100%;
+    margin-top: 10px;
+}
+
+.section2_cards{
+    margin-top: 30px;
 }

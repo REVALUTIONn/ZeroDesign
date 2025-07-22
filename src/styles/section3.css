@@ -1,0 +1,36 @@
+.section3_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Два столбца одинаковой ширины */
+    gap: 50px; /* Отступ между элементами, по желанию */
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.section3_wrapper{
+    margin-top: 200px;
+}
+
+.section3_title{
+    background-color: black;
+    color: white;
+    width: 500px;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-left: 280px;
+    padding: 0 20px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+}
+
+.section3_content_description{
+    font-size: 26px;
+}
+
+.section3_content_photo{
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    width: 634px;
+}

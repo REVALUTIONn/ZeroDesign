@@ -1,0 +1,32 @@
+.section5_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px; /* Отступ между элементами, по желанию */
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.section5_content_description{
+    text-transform: uppercase;
+    font-size: 26px;   
+}
+
+.section5_title{
+    background-color: black;
+    color: white;
+    width: 500px;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    padding: 0 20px;
+}
+
+.section5_wrapper{
+    margin-top: 200px;
+}
+
+.section5_content_photo{
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    width: 634px;
+}

@@ -12,6 +12,8 @@ import Section3 from './components/section3.jsx'
 import './styles/section3.css'
 import Section4 from './components/section4.jsx'
 import './styles/section4.css'
+import Section5 from './components/section5.jsx'
+import './styles/section5.css'
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
           <section className='section2'><Section2 /></section>
           <section className='section3'><Section3 /></section>
           <section className='section4'><Section4 /></section>
-          <section></section>
+          <section className='section5'><Section5 /></section>
           <section></section>
           <section></section>
       </div>

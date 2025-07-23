@@ -82,7 +82,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* или 100% от нужной высоты */
+  height: 89vh; /* или 100% от нужной высоты */
   position: relative;
 }
 
